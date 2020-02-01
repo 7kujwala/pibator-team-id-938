@@ -1,0 +1,176 @@
+
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\begin{document}
+\centering
+PI-BATOR
+
+ARTIFICIAL EGG INCUBATOR
+
+
+eYIC 2019-20 Team id:938
+
+
+
+
+
+\begin{flushleft}
+
+IMPLEMENTATION:
+
+Code is uploaded on Raspberry-Pi.
+Turner module and motor module are used to tilt eggs in clockwise and anti-clockwise direction to avoid yolk from getting stuck to shell.
+ DHT11 sensor is used to sense temperature and humidity inside the incubator. This is given as input to raspberry-pi.
+This input is processed and gives output to relay which in turns acts as switch to heating device
+Camera module is used to capture images of eggs and store it in cloud. These images are mailed to user, helping in monitoring incubator from distant place.
+
+\end{flushleft}
+
+
+\begin{figure}
+[h]
+\begin{center}
+\includegraphics[width=10cm, height=5cm]{figure}
+\caption{Block Diagram}
+\end{center}
+\end{figure}
+
+
+\begin{flushleft}
+PI-BATOR is an artificial egg incubator. It incubates 5 types of eggs like chicken, duck, geese, turkeys and guineafowl. The egg incubation happens in 3 stages:
+
+Stage-1: (0-7 days) No need for maintenance of temperature and 
+                   humidity.    
+	       Angle of egg alignment is changed according to the code.
+
+Stage-2: (7-18 days) Temperature – 33 to 35 degree Celsius.
+                   Humidity – 40\%to 50\%.
+
+Stage-3: (18-21 days) HATCHING PERIOD
+                     Temperature – 37.8 to 38 degree Celsius
+                      Humidity – 65\% to 75\%
+
+\end{flushleft}
+
+
+
+\begin{flushleft}
+
+HARDWARE COMPONENTS REQUIRED:
+
+Raspberry Pi
+
+Turner module
+
+Motor module
+
+Camera module
+
+Temperature and Humidity sensor
+
+Display
+
+\end{flushleft}
+
+\begin{flushleft}
+SOFTWARE REQUIREMENTS:
+
+Python
+
+Embedded C
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+Raspberry Pi:
+
+Egg-Incubator based on Raspberry Pi will allow the foetuses inside the eggs to grow and hatch without the mother (hens) being present. Raspberry Pi is a low-cost ARM- based computer on a small circuit board. It is a capable credit card sized PC which can be used for various purposes as such a desktop PC can provide.
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+TURNER MODULE:
+
+Turner module is used to tilt eggs to avoid yolk from getting stuck to shell. Turning ensures proper mixing of albumin contents, It is to be done several times a day clockwise and anti-clockwise.
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+MOTOR MODULE:
+
+A motor will be controlled to alter the tilt angle of the egg tray inside the incubator. A sensor that measures temperature and humidity will be placed inside the incubator to take regular measurements.
+
+
+\end{flushleft}
+
+\begin{flushleft}
+
+CAMERA MODULE:
+
+The camera module is used to have a look on the process being happened inside the incubator. When it is connected to display, we can watch the process of hatching on the screen.
+
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+TEMPERATURE AND HUMIDITY SENSOR:
+
+DHT11 is being used. Incubator is an enclosed apparatus whose internal environmental is isolated from ambient environment. The DHT11 is used to regulate the temperature and humidity inside the incubator time to time based on the user instructions.
+
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+PYTHON \& EMBEDDED C:
+
+Python and Embedded C involves the required coding and scripting to develop the monitoring system application.
+
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+FEASIBILITY:
+
+It is feasible.
+PI-BATOR can hatch 5 different kinds of eggs.
+
+Very much useful for poultry farmers.
+
+Benefits small scale farmers economically.
+
+
+\end{flushleft}
+
+
+\begin{flushleft}
+
+REFERENCE:
+
+[1] O.E.Aru, “The development of Quail Eggs Smart Incubator for hatching system based onMicrocontroller and Internet of Things(IoT)”, Journal of Scientific and Engineering Research, vol. 4, no. 6, pp. 109-119,2017. 
+
+[2] P.Deka, R. Borgohain, “Design and implementation of a Fully Automated Egg Incubator”, International Journal of Livestock Research, vol. 6, no. 1, p.92,2016.
+
+[3] P.E. Ohpagu and A.W. Nwosu, “Development and Temperature Control of Smart Egg Incubator System for Various Types of Egg”, European Journal of Engineering and Technology, vol. 4, no. 2, pp. 13-21,2016L.
+
+[4] L. Barkalita, Development of a computerized Engineering Technique to improve Incubation system in Poultry Farms”, Journal of scientific and Engineering Research, vol. 4,no. 6, pp. 109-119.
+
+[5]F. Ali and N. A. Amran, “Development of an egg incubator using Raspberry Pi for precision,” International Journal of Agriculture , Forestry and Plantation, vol. 2, pp.40-45,2016.
+
+
+
+
+\end{flushleft}
+
+\end{document}
