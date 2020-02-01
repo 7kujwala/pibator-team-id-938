@@ -8,9 +8,7 @@ In the Function my _ user _ task we defined a range from 0 to 500 .Variables are
 Now defined control statements for displaying the temperature , humidity in the blynk.
 
 
-
-
 i. 0-7 days: During this period there is no need for maintenance of temperature and humidity, here room temperature is maintained for initial days and for humidity purpose a  cup of water is placed inside the incubator and the heating device is made off. Only the angle of egg alignment is changed according to the code. The egg as to be rotated every now and then just to avoid the yolk from getting stuck to egg shell, if not the hatch-ability  of egg reduces.
 ii. 7-18 days: During this period the temperature and humidity are to be maintained in certain range. Temperature is to be in the range of 33-35oC, & humidity around 40-50 %RH. The egg tray must be tilted continuously and heating device is made turn on  if temperature is below the required level, if temperature is above the required level thenheating device is made turned off with the help of relay, here relay acts as a switch. Thisperiod is called Pre-hatching period.
-       iii. 18-21 days: This period is called ‘Hatching period’. During          this period temperature should be around37.8-38oC, &humidity   should be around 65-75%RH. This is the final stage of incubation process where eggs are turned to chicks.
+iii. 18-21 days: This period is called ‘Hatching period’. During this period temperature should be around37.8-38oC, &humidity   should be around 65-75%RH. This is the final stage of incubation process where eggs are turned to chicks.
 
