@@ -6,7 +6,7 @@ First we initialize the Blynk Library and registered the task  to run for  every
 In the Function bin2dec we used the GPIO pins for interfacing components.
 In the Function my _ user _ task we defined a range from 0 to 500 .Variables are declared such as bit _count, tmp , count, HumidityBit , TemperatureBit, crc.By using loop statements we made operations on the variables and control statements are also used for checking the conditions of humidity , temperature . we also declared exceptions for error handling . Another range is defined from 0 to 8 to operate the variables.
 Now defined control statements for displaying the temperature , humidity in the blynk.
-
+file:///home/pscmr/Desktop/IMG_20200131_184240.jpg
 
 i. 0-7 days: During this period there is no need for maintenance of temperature and humidity, here room temperature is maintained for initial days and for humidity purpose a  cup of water is placed inside the incubator and the heating device is made off. Only the angle of egg alignment is changed according to the code. The egg as to be rotated every now and then just to avoid the yolk from getting stuck to egg shell, if not the hatch-ability  of egg reduces.
 ii. 7-18 days: During this period the temperature and humidity are to be maintained in certain range. Temperature is to be in the range of 33-35oC, & humidity around 40-50 %RH. The egg tray must be tilted continuously and heating device is made turn on  if temperature is below the required level, if temperature is above the required level thenheating device is made turned off with the help of relay, here relay acts as a switch. Thisperiod is called Pre-hatching period.
