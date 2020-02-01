@@ -1,4 +1,4 @@
-﻿PI-BATOR
+PI-BATOR
 Our project name is PI-BATOR. Author list is as follows: K. Ujwala, G. Lakshmi Devi, M. Jyothirmai Devi , P. Bhavani Sai.              Under guidance of B. Mahitha Reddy.
 Here we used libraries: import Blynk Lib , import time , import numpy as np , import cv2, import RPi.GPIO as GPIO , import time.
 Here we used functions such as : bin2dec , my _ user _task
